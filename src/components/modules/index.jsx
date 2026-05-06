@@ -233,8 +233,7 @@ export function Classes({ onNext, onBack }) {
 }
 
 // ─── PREVENTION ──────────────────────────────────────────────────────────────
-export function Prevention({ cfg, site, onNext, onBack }) {
-  const sd = site !== null ? cfg.sites[site] : cfg.sites[0];
+export function Prevention({ cfg, onNext, onBack }) {
   return (
     <div>
       <SectionHeader tag="Module 6 of 11" icon="🛡️" title="Fire prevention"
